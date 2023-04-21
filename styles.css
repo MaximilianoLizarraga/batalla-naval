@@ -1,0 +1,35 @@
+html {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+}
+
+h1>span {
+    color: white;
+    border: white 8px outset;
+    background-color: gray;
+}
+
+#tableroJugador img{
+    width: 45vw;
+    height: 45vw;
+}
+
+#tableroIa img{
+    width: 45vw;
+    height: 45vw;
+}
+
+.tableros{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media (max-width: 300px) {
+    .tableros{
+        flex-direction: column;
+        align-items: center;
+    }
+}
